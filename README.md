@@ -2,21 +2,21 @@
 Choose the data set from /datasets/folder. (DS from now)
 -The metric value must be omitted. The value must be one of these:
 
-| Metric    | Command Value|
-| Eucledian |     "eu"     |
-| Manhattan |     "ma"     |
-| Minkowski |   "mi (m)"   |
+| Metric    | Command Value|\n
+| Eucledian |     "eu"     |\n
+| Manhattan |     "ma"     |\n
+| Minkowski |   "mi (m)"   |\n
 
 -When Minkowski metric is chosen a value for root ( m ) must be specified.  
 
 -The reference point(to which the distance is calculated and the points are sorted by that distance) type must be omitted. The values must be one of these:
 
-|    Reference type        |     Command Value   |
-|   Coordinate origin      |          "0"        |
-| Maximum attribute values |         "max"       |
-| Minimum attribute values |         "min"       |
-|    Max,min,max,min....   |        "maxmin"     |
-|   Min,max,min,max....    |        "minmax"     |
+|    Reference type        |     Command Value   |\n
+|   Coordinate origin      |          "0"        |\n
+| Maximum attribute values |         "max"       |\n
+| Minimum attribute values |         "min"       |\n
+|    Max,min,max,min....   |        "maxmin"     |\n
+|   Min,max,min,max....    |        "minmax"     |\n
 
 
 - On the project's main directory run:
