@@ -20,7 +20,7 @@ Choose the data set from /datasets/folder. (DS from now)
 
 
 - On the project's main directory run:
->> java -jar TIDBSCAN.jar DS.txt radius minp [metric [m]] referenceType > out.txt
+java -jar TIDBSCAN.jar DS.txt radius minp [metric [m]] referenceType > out.txt
 
 Example : java -jar TIDBSCAN.jar iris.txt 1 4 mi 2 max > out.txt
 
