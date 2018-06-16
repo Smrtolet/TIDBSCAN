@@ -64,7 +64,6 @@ public class Point {
 	public Point(String str) {
 
 		String[] p = str.split(",");
-
 		setID(p[0]);
 		setCore(false);
 		setClassed(false);
@@ -76,7 +75,5 @@ public class Point {
 			tmpOrigin[i - 1] = 0;
 		}
 
-		Point originPoint = new Point(tmpOrigin);
-		setDistanceToOrigin(Util.getDistance(this, originPoint));
 	}
 }
